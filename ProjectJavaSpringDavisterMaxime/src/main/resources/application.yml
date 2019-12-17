@@ -1,0 +1,13 @@
+server:
+  port: 8082
+  servlet:
+    ContextPath: /CheminDeTraverse
+  ssl:
+    key-store: C:\Program Files\Java\jdk1.8.0_161\bin\keystore.p12
+    key-store-password: 31415926535898
+    keyStoreType: PKCS12
+    keyAlias: tomcat
+spring:
+  datasource:
+    password: Miraculous_H4m4sim
+    url: jdbc:mysql://localhost:3306/chemindetravers?zeroDateTimeBehavior=CONVERT_TO_NULL&serverTimezone=UTC&user=root
